@@ -1,0 +1,13 @@
+# full_x500-user 6.0 DHXOSOP5801911241S 1479990092 release-keys
+- manufacturer: leeco
+- platform: 
+- codename: x3
+- flavor: lineage_x3-userdebug
+- release: 9
+- id: PQ3A.190801.002
+- incremental: eng.vishal.20200419.052335
+- tags: 
+- fingerprint: Letv/Le1s_IN/X3_HK:6.0/DHXOSOP5801911241S/1479990092:user/release-keys
+- brand: LeEco
+- branch: full_x500-user-6.0-DHXOSOP5801911241S-1479990092-release-keys
+- repo: leeco_x3_dump
