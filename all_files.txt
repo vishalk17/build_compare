@@ -570,7 +570,6 @@ system/etc/llndk.libraries.28.txt
 system/etc/media_profiles_V1_0.dtd
 system/etc/mke2fs.conf
 system/etc/mkshrc
-system/etc/mtk_omx_core.cfg
 system/etc/nano/asm.nanorc
 system/etc/nano/autoconf.nanorc
 system/etc/nano/awk.nanorc
@@ -2056,6 +2055,7 @@ system/lib64/libxml2.so
 system/lib64/libz.so
 system/lib64/libziparchive.so
 system/lib64/vendor.lineage.camera.motor@1.0.so
+system/lib64/vendor.lineage.livedisplay@2.0.so
 system/lib64/vendor.lineage.power@1.0.so
 system/media/audio/alarms/Alarm_Beep_01.ogg
 system/media/audio/alarms/Alarm_Beep_02.ogg
@@ -2661,6 +2661,7 @@ system/vendor/bin/hw/android.hardware.vibrator@1.0-service
 system/vendor/bin/hw/android.hardware.wifi@1.0-service
 system/vendor/bin/hw/hostapd
 system/vendor/bin/hw/rild
+system/vendor/bin/hw/vendor.lineage.livedisplay@2.0-service-mediatek
 system/vendor/bin/hw/wpa_supplicant
 system/vendor/bin/hwclock
 system/vendor/bin/id
@@ -2976,6 +2977,7 @@ system/vendor/etc/init/android.hardware.vibrator@1.0-service.rc
 system/vendor/etc/init/android.hardware.wifi@1.0-service.rc
 system/vendor/etc/init/hostapd.android.rc
 system/vendor/etc/init/mediaserver.rc
+system/vendor/etc/init/vendor.lineage.livedisplay@2.0-service-mediatek.rc
 system/vendor/etc/init/vndservicemanager.rc
 system/vendor/etc/mddb/BPLGUInfoCustomAppSrcP_MT6795_S00_MOLY_LR9_W1423_MD_LWTG_MP_V24_P51_1_ltg_n
 system/vendor/etc/mddb/BPLGUInfoCustomAppSrcP_MT6795_S00_MOLY_LR9_W1423_MD_LWTG_MP_V24_P51_1_lwg_n
@@ -3244,6 +3246,7 @@ system/vendor/lib/libjni_latinimegoogle.so
 system/vendor/lib/libjni_pq.so
 system/vendor/lib/libjtranscode.so
 system/vendor/lib/libkeymaster3device.so
+system/vendor/lib/libkeystore_binder_old.so
 system/vendor/lib/liblic_divx.so
 system/vendor/lib/liblic_s263.so
 system/vendor/lib/libm4u.so
@@ -3534,6 +3537,7 @@ system/vendor/lib64/libjtranscode.so
 system/vendor/lib64/libkeymaster3device.so
 system/vendor/lib64/libkeystore-engine-wifi-hidl.so
 system/vendor/lib64/libkeystore-wifi-hidl.so
+system/vendor/lib64/libkeystore_binder_old.so
 system/vendor/lib64/liblic_divx.so
 system/vendor/lib64/liblic_s263.so
 system/vendor/lib64/libm4u.so

@@ -26,12 +26,12 @@ dalvik.vm.dex2oat-minidebuginfo=true
 debug.atrace.tags.enableflags=0
 ro.com.google.clientidbase=android-leeco
 ro.build.selinux=1
-ro.config.notification_sound=Argon.ogg
-ro.config.alarm_alert=Hassium.ogg
-persist.sys.dun.override=0
 ro.adb.secure=1
 ro.control_privapp_permissions=enforce
 ro.storage_manager.enabled=true
+ro.config.notification_sound=Argon.ogg
+ro.config.alarm_alert=Hassium.ogg
+persist.sys.dun.override=0
 media.recorder.show_manufacturer_and_model=true
 ro.config.ringtone=Orion.ogg
 net.tethering.noprovisioning=true
@@ -43,7 +43,7 @@ log.tag.stats_log=I
 #
 # BOOTIMAGE_BUILD_PROPERTIES
 #
-ro.bootimage.build.date=Sun Apr 19 05:22:52 UTC 2020
-ro.bootimage.build.date.utc=1587273772
+ro.bootimage.build.date=Tue May 5 04:05:29 UTC 2020
+ro.bootimage.build.date.utc=1588651529
 ro.bootimage.build.fingerprint=Letv/Le1s_IN/X3_HK:6.0/DHXOSOP5801911241S/1479990092:user/release-keys
 persist.sys.usb.config=none

@@ -198,12 +198,12 @@ on property:persist.sys.le_fast_chrg_enable=0
 # add by letv for reduced power rate when normal charge be selected end
 
 # goodix fingerprint begin
-service goodixfpd /system/bin/goodixfingerprintd
+service goodixfpd /vendor/bin/goodixfingerprintd
     class main
     user system
     group system
 
-service fingerprintd /system/bin/fingerprintd
+service fingerprintd /vendor/bin/fingerprintd
     class main
     user system
     group system

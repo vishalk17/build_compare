@@ -128,7 +128,7 @@ service wmt_loader /vendor/bin/wmt_loader
 	group root
 	oneshot
 
-service 66xx_launcher /vendor/bin/6620_launcher -m 4 -p /system/etc/firmware/
+service 66xx_launcher /vendor/bin/6620_launcher -m 4 -p /vendor/etc/firmware/
     user system
     group system
     class core

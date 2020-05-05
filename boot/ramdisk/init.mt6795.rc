@@ -203,6 +203,10 @@ on post-fs-data
 
 # -----------------------
 # Add by MTK
+
+    # MTKCAM fix
+    chmod 0666 /sys/class/BOOT/BOOT/boot/boot_mode
+
     # md32 boot
     chown root system /dev/md32
     chmod 0440 /dev/md32
@@ -609,7 +613,7 @@ on post-fs-data
     chmod 0660 /dev/graphics/fb0
     chown system graphics /dev/graphics/fb0
 
-    chmod 0660 /dev/mtkfb_vsync
+    chmod 0666 /dev/mtkfb_vsync
     chown system graphics /dev/mtkfb_vsync
 
     chmod 0666 /dev/sw_sync
@@ -793,6 +797,7 @@ on post-fs-data
 
     # AGPS
     mkdir /data/agps_supl 0771 gps system
+    chmod 0666 /dev/ttyC2
 
     # secure memory
     chown system system /proc/secmem0
@@ -1550,7 +1555,7 @@ service NvRAMAgent /vendor/bin/nvram_agent_binder
     user root
     group system
 
-service thermal_manager /vendor/bin/thermal_manager
+service thermal_manager /vendor/bin/thermal_manager /system/vendor/etc/.tp/thermal.off.conf
     class main
     user root
     oneshot
@@ -1594,10 +1599,10 @@ service batterywarning /system/bin/batterywarning
     user shell
     group shell
 
-#service BGW /vendor/xbin/BGW
-#	user system
-#	group gps system radio
-#	class main
+service BGW /vendor/xbin/BGW
+	user system
+	group gps system radio
+	class main
 
 service MtkCodecService /vendor/bin/MtkCodecService
     class main
